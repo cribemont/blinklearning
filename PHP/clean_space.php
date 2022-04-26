@@ -7,7 +7,8 @@ $string2 = "Hola \nQue tal ?\tSoy Charles ";
 $string1_clear = str_replace(' ', '', $string1);
 echo $string1_clear;
 
-// Segundo clean con todos los whitespaces, line-breaks, etc, usando preg_replace
+// Segundo clean con todos los whitespaces, line-breaks, tabs, setc, usando preg_replace
 $string2_clear = preg_replace('/\s+/', '', $string2);
 echo $string2_clear;
+
 ?>
