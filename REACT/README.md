@@ -15,7 +15,7 @@ Su implementacion podria ser la siguiente
 ```bash
 import ListComponent from './ListComponent';
 
-let list = ["Amarillo", "Azul", "Rojo", "Verde"];
+const list = ["Amarillo", "Azul", "Rojo", "Verde"];
 
 <ListComponent list={list} />
 ```
